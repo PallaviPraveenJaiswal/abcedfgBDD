@@ -1,0 +1,57 @@
+Test case for Journey binder:
+1.Sign in with Google, enter email, password, user lands on dashboard. 
+2. Sign in with Fb, enter email id, password user navigate on dashboard.
+3. Sign in with registered email id and password. 
+
+
+4.Validate sign up for username, validate for password with different combinations, validated different use cases.
+5. Sign up - Generate random email id's and register user. user lands on dashboard.
+6.Validate for username, email id and validate for password with different combinations, validated different use cases.
+7.Sign up  with Gmail user lands on dashboard.
+8.Sign up with Facebook user lands on dashboard.
+9.Test above data with possible scenario's.
+10.Validate Sign in link navigation.
+11.Validate sign up link navigation
+12.On success login user have to do toast notification, validate navigation to menu > Admin mgmt. > user > select user and expand All user.
+13.Search & select a user, click on notification window validate pop-ups.
+14.Enter body details receiver email id validate with his email id
+15.Enter body details phone no.
+16.Enter body details push notification.
+
+Below are the validation for Login:
+1. email without @
+   error msg:  Please include an '@' in the email address. 
+
+2. when more than 1 @ is given in email id.
+    error msg: A part following '@' should not contains the symbol '@'.
+
+3. email with @ and no ".com"
+   error msg: Please enter a part following '@'. 
+
+4. email with "sdf@saf." without "com/co/in"etc
+    error msg: '.' is user at a wrong position in 
+
+5. When  email and password given blank
+   error msg: The email address is badly formatted. 
+
+6. When no password is given with proper email id
+   error msg: The password is invalid or the user does not have a password.  
+
+7. login with non-registered user
+   error msg: There is no user record corresponding to this identifier. The user may have been deleted.
+    
+8. When password is wrong:
+   error msg: The password is invalid or the user does not have a password.
+   
+9. When user enter wring password couple of times
+   error msg: Too many unsuccessful login attempts. Please try again later.   
+   
+ Below are validation for Register:
+1. When none of te field is entered 
+   error msg: Password should be eight character long contains at least one uppercase, one lowercase, one number and one special character!
+    
+2. For sucess signup:
+   msg: You have successfully signed up to my.journeybinder.com
+   
+3.     
+   

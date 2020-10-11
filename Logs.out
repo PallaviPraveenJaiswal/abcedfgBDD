@@ -1,0 +1,137 @@
+2020-08-30 21:08:958 INFO  LoginStep:22 - Started SignIn to Journey Binder with Google
+2020-08-30 21:08:204 INFO  UtilityClass:106 - wait for element ele value[[ChromeDriver: chrome on WINDOWS (cc24dcda038a71037a3efcb87aeac71f)] -> xpath: //*[contains(text(),'Sign In with Google')]]
+2020-08-30 21:08:436 INFO  UtilityClass:106 - wait for element ele value[[ChromeDriver: chrome on WINDOWS (cc24dcda038a71037a3efcb87aeac71f)] -> xpath: //input[@type='email']]
+2020-08-30 21:08:374 INFO  UtilityClass:106 - wait for element ele value[[ChromeDriver: chrome on WINDOWS (cc24dcda038a71037a3efcb87aeac71f)] -> xpath: (//*[@class='VfPpkd-RLmnJb'])[1]]
+2020-08-30 21:08:952 INFO  UtilityClass:109 - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //input[@type='password']' (tried for 10 second(s) with 500 milliseconds interval)
+2020-08-30 21:08:247 INFO  LoginStep:30 - StartedSignIn to Journey Binder with Facebook
+2020-08-30 21:08:356 INFO  UtilityClass:109 - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //*[contains(text(),'Sign In with Facebook')]' (tried for 10 second(s) with 500 milliseconds interval)
+2020-08-30 21:08:548 INFO  LoginStep:38 - Entering username and password and click on login button
+2020-08-30 21:08:556 INFO  UtilityClass:106 - wait for element ele value[[ChromeDriver: chrome on WINDOWS (cba7dc3cbf0f3a3f98bf551f230b9418)] -> xpath: //input[@type='email']]
+2020-08-30 21:08:965 INFO  UtilityClass:106 - wait for element ele value[[ChromeDriver: chrome on WINDOWS (cba7dc3cbf0f3a3f98bf551f230b9418)] -> class name: password]
+2020-08-30 21:08:145 INFO  LoginStep:45 - clicking on get started button
+2020-08-30 21:08:234 INFO  UtilityClass:106 - wait for element ele value[[ChromeDriver: chrome on WINDOWS (cba7dc3cbf0f3a3f98bf551f230b9418)] -> xpath: //button[@type='submit']]
+2020-08-30 21:08:340 INFO  LoginStep:51 - Validating floating message
+2020-08-30 21:08:923 INFO  UtilityClass:106 - wait for element ele value[[ChromeDriver: chrome on WINDOWS (cba7dc3cbf0f3a3f98bf551f230b9418)] -> class name: ant-notification-notice-with-icon]
+2020-08-30 21:08:19 INFO  UtilityClass:106 - wait for element ele value[[ChromeDriver: chrome on WINDOWS (cba7dc3cbf0f3a3f98bf551f230b9418)] -> class name: ant-notification-notice-description]
+2020-08-30 21:08:89 INFO  UtilityClass:123 - **********************************************
+2020-08-30 21:08:92 INFO  UtilityClass:124 - Toast message is----> You have successfully signed in to my.journeybinder.com!
+2020-08-30 21:08:93 INFO  UtilityClass:125 - **********************************************
+2020-08-30 21:08:208 INFO  UtilityClass:106 - wait for element ele value[[ChromeDriver: chrome on WINDOWS (cba7dc3cbf0f3a3f98bf551f230b9418)] -> xpath: //a[@href='/']]
+2020-08-30 21:08:261 INFO  LoginStep:72 - Dashboard is verified
+2020-08-30 21:08:264 INFO  LoginStep:57 - User clicks on Avatar icon
+2020-08-30 21:08:501 INFO  UtilityClass:106 - wait for element ele value[[ChromeDriver: chrome on WINDOWS (cba7dc3cbf0f3a3f98bf551f230b9418)] -> xpath: //*[@class = 'hide-icon']]
+2020-08-30 21:08:753 INFO  UtilityClass:106 - wait for element ele value[[ChromeDriver: chrome on WINDOWS (cba7dc3cbf0f3a3f98bf551f230b9418)] -> xpath: //*[@class='username']]
+2020-08-30 21:08:929 INFO  UtilityClass:106 - wait for element ele value[[ChromeDriver: chrome on WINDOWS (cba7dc3cbf0f3a3f98bf551f230b9418)] -> xpath: //*[contains(text(),'Sign Out')]]
+2020-08-30 21:08:63 INFO  LoginStep:79 - Clicked on logout
+2020-08-30 21:08:135 INFO  LoginStep:38 - Entering username and password and click on login button
+2020-08-30 21:08:906 INFO  UtilityClass:106 - wait for element ele value[[ChromeDriver: chrome on WINDOWS (0cbe465529d3156491fa67e8f12f60c8)] -> xpath: //input[@type='email']]
+2020-08-30 21:08:187 INFO  UtilityClass:106 - wait for element ele value[[ChromeDriver: chrome on WINDOWS (0cbe465529d3156491fa67e8f12f60c8)] -> class name: password]
+2020-08-30 21:08:291 INFO  LoginStep:45 - clicking on get started button
+2020-08-30 21:08:380 INFO  UtilityClass:106 - wait for element ele value[[ChromeDriver: chrome on WINDOWS (0cbe465529d3156491fa67e8f12f60c8)] -> xpath: //button[@type='submit']]
+2020-08-30 21:08:507 INFO  LoginStep:51 - Validating floating message
+2020-08-30 21:08:608 INFO  UtilityClass:106 - wait for element ele value[[ChromeDriver: chrome on WINDOWS (0cbe465529d3156491fa67e8f12f60c8)] -> class name: ant-notification-notice-with-icon]
+2020-08-30 21:08:699 INFO  UtilityClass:106 - wait for element ele value[[ChromeDriver: chrome on WINDOWS (0cbe465529d3156491fa67e8f12f60c8)] -> class name: ant-notification-notice-description]
+2020-08-30 21:08:753 INFO  UtilityClass:123 - **********************************************
+2020-08-30 21:08:754 INFO  UtilityClass:124 - Toast message is----> The email address is badly formatted.
+2020-08-30 21:08:754 INFO  UtilityClass:125 - **********************************************
+2020-08-30 21:08:87 INFO  LoginStep:38 - Entering username and password and click on login button
+2020-08-30 21:08:124 INFO  UtilityClass:106 - wait for element ele value[[ChromeDriver: chrome on WINDOWS (7d2412ad7c09da6804fc5287304008f2)] -> xpath: //input[@type='email']]
+2020-08-30 21:08:440 INFO  UtilityClass:106 - wait for element ele value[[ChromeDriver: chrome on WINDOWS (7d2412ad7c09da6804fc5287304008f2)] -> class name: password]
+2020-08-30 21:08:571 INFO  LoginStep:45 - clicking on get started button
+2020-08-30 21:08:661 INFO  UtilityClass:106 - wait for element ele value[[ChromeDriver: chrome on WINDOWS (7d2412ad7c09da6804fc5287304008f2)] -> xpath: //button[@type='submit']]
+2020-08-30 21:08:790 INFO  LoginStep:51 - Validating floating message
+2020-08-30 21:08:884 INFO  UtilityClass:106 - wait for element ele value[[ChromeDriver: chrome on WINDOWS (7d2412ad7c09da6804fc5287304008f2)] -> class name: ant-notification-notice-with-icon]
+2020-08-30 21:08:965 INFO  UtilityClass:106 - wait for element ele value[[ChromeDriver: chrome on WINDOWS (7d2412ad7c09da6804fc5287304008f2)] -> class name: ant-notification-notice-description]
+2020-08-30 21:08:28 INFO  UtilityClass:123 - **********************************************
+2020-08-30 21:08:29 INFO  UtilityClass:124 - Toast message is----> The password is invalid or the user does not have a password.
+2020-08-30 21:08:29 INFO  UtilityClass:125 - **********************************************
+2020-08-30 21:08:75 INFO  LoginStep:38 - Entering username and password and click on login button
+2020-08-30 21:08:836 INFO  UtilityClass:106 - wait for element ele value[[ChromeDriver: chrome on WINDOWS (031ceed4092c0d9b661d675c8cfe8a5a)] -> xpath: //input[@type='email']]
+2020-08-30 21:08:42 INFO  UtilityClass:106 - wait for element ele value[[ChromeDriver: chrome on WINDOWS (031ceed4092c0d9b661d675c8cfe8a5a)] -> class name: password]
+2020-08-30 21:08:203 INFO  LoginStep:45 - clicking on get started button
+2020-08-30 21:08:298 INFO  UtilityClass:106 - wait for element ele value[[ChromeDriver: chrome on WINDOWS (031ceed4092c0d9b661d675c8cfe8a5a)] -> xpath: //button[@type='submit']]
+2020-08-30 21:08:429 INFO  LoginStep:51 - Validating floating message
+2020-08-30 21:08:537 INFO  UtilityClass:106 - wait for element ele value[[ChromeDriver: chrome on WINDOWS (031ceed4092c0d9b661d675c8cfe8a5a)] -> class name: ant-notification-notice-with-icon]
+2020-08-30 21:08:634 INFO  UtilityClass:106 - wait for element ele value[[ChromeDriver: chrome on WINDOWS (031ceed4092c0d9b661d675c8cfe8a5a)] -> class name: ant-notification-notice-description]
+2020-08-30 21:08:682 INFO  UtilityClass:123 - **********************************************
+2020-08-30 21:08:683 INFO  UtilityClass:124 - Toast message is----> The email address is badly formatted.
+2020-08-30 21:08:683 INFO  UtilityClass:125 - **********************************************
+2020-08-30 21:08:769 INFO  LoginStep:38 - Entering username and password and click on login button
+2020-08-30 21:08:841 INFO  UtilityClass:106 - wait for element ele value[[ChromeDriver: chrome on WINDOWS (d58068b11d7f399be03459b91e0aaf90)] -> xpath: //input[@type='email']]
+2020-08-30 21:08:106 INFO  UtilityClass:106 - wait for element ele value[[ChromeDriver: chrome on WINDOWS (d58068b11d7f399be03459b91e0aaf90)] -> class name: password]
+2020-08-30 21:08:254 INFO  LoginStep:45 - clicking on get started button
+2020-08-30 21:08:362 INFO  UtilityClass:106 - wait for element ele value[[ChromeDriver: chrome on WINDOWS (d58068b11d7f399be03459b91e0aaf90)] -> xpath: //button[@type='submit']]
+2020-08-30 21:08:468 INFO  LoginStep:51 - Validating floating message
+2020-08-30 21:08:589 INFO  UtilityClass:106 - wait for element ele value[[ChromeDriver: chrome on WINDOWS (d58068b11d7f399be03459b91e0aaf90)] -> class name: ant-notification-notice-with-icon]
+2020-08-30 21:08:690 INFO  UtilityClass:106 - wait for element ele value[[ChromeDriver: chrome on WINDOWS (d58068b11d7f399be03459b91e0aaf90)] -> class name: ant-notification-notice-description]
+2020-08-30 21:08:743 INFO  UtilityClass:123 - **********************************************
+2020-08-30 21:08:744 INFO  UtilityClass:124 - Toast message is----> There is no user record corresponding to this identifier. The user may have been deleted.
+2020-08-30 21:08:745 INFO  UtilityClass:125 - **********************************************
+2020-08-30 21:08:721 INFO  LoginStep:84 - User is on Sign in page
+2020-08-30 21:08:27 INFO  UtilityClass:106 - wait for element ele value[[ChromeDriver: chrome on WINDOWS (b3c6765a82ea2a442bb6e52b1de082e6)] -> xpath: //*[contains(text(),'Sign In with Google')]]
+2020-08-30 21:08:162 INFO  LoginStep:91 - User is on Sign in page
+2020-08-30 21:08:276 INFO  LoginStep:38 - Entering username and password and click on login button
+2020-08-30 21:08:499 INFO  UtilityClass:106 - wait for element ele value[[ChromeDriver: chrome on WINDOWS (cfaba92f8e7e71d797658f0adf2a251b)] -> xpath: //input[@type='email']]
+2020-08-30 21:08:891 INFO  UtilityClass:106 - wait for element ele value[[ChromeDriver: chrome on WINDOWS (cfaba92f8e7e71d797658f0adf2a251b)] -> class name: password]
+2020-08-30 21:08:54 INFO  LoginStep:45 - clicking on get started button
+2020-08-30 21:08:146 INFO  UtilityClass:106 - wait for element ele value[[ChromeDriver: chrome on WINDOWS (cfaba92f8e7e71d797658f0adf2a251b)] -> xpath: //button[@type='submit']]
+2020-08-30 21:08:259 INFO  LoginStep:51 - Validating floating message
+2020-08-30 21:08:820 INFO  UtilityClass:106 - wait for element ele value[[ChromeDriver: chrome on WINDOWS (cfaba92f8e7e71d797658f0adf2a251b)] -> class name: ant-notification-notice-with-icon]
+2020-08-30 21:08:920 INFO  UtilityClass:106 - wait for element ele value[[ChromeDriver: chrome on WINDOWS (cfaba92f8e7e71d797658f0adf2a251b)] -> class name: ant-notification-notice-description]
+2020-08-30 21:08:983 INFO  UtilityClass:123 - **********************************************
+2020-08-30 21:08:983 INFO  UtilityClass:124 - Toast message is----> You have successfully signed in to my.journeybinder.com!
+2020-08-30 21:08:984 INFO  UtilityClass:125 - **********************************************
+2020-08-30 21:08:80 INFO  UtilityClass:106 - wait for element ele value[[ChromeDriver: chrome on WINDOWS (cfaba92f8e7e71d797658f0adf2a251b)] -> xpath: //a[@href='/']]
+2020-08-30 21:08:155 INFO  LoginStep:72 - Dashboard is verified
+2020-08-30 21:08:419 INFO  UtilityClass:106 - wait for element ele value[[ChromeDriver: chrome on WINDOWS (cfaba92f8e7e71d797658f0adf2a251b)] -> xpath: //*[contains(text(),'Admin Management')]]
+2020-08-30 21:08:664 INFO  UtilityClass:106 - wait for element ele value[[ChromeDriver: chrome on WINDOWS (cfaba92f8e7e71d797658f0adf2a251b)] -> xpath: //*[@class = 'hide-icon']]
+2020-08-30 21:08:170 INFO  UtilityClass:106 - wait for element ele value[[ChromeDriver: chrome on WINDOWS (cfaba92f8e7e71d797658f0adf2a251b)] -> xpath: //input[@placeholder='Enter subject']]
+2020-08-30 21:08:498 INFO  UtilityClass:106 - wait for element ele value[[ChromeDriver: chrome on WINDOWS (cfaba92f8e7e71d797658f0adf2a251b)] -> xpath: //input[@placeholder='Custom body']]
+2020-08-30 21:08:769 INFO  UtilityClass:106 - wait for element ele value[[ChromeDriver: chrome on WINDOWS (cfaba92f8e7e71d797658f0adf2a251b)] -> xpath: //button[contains(text(),'SEND')]]
+2020-08-30 21:08:233 INFO  LoginStep:38 - Entering username and password and click on login button
+2020-08-30 21:08:771 INFO  UtilityClass:106 - wait for element ele value[[ChromeDriver: chrome on WINDOWS (47d9dad7000572f7640dd7e1b1acc846)] -> xpath: //input[@type='email']]
+2020-08-30 21:08:286 INFO  UtilityClass:106 - wait for element ele value[[ChromeDriver: chrome on WINDOWS (47d9dad7000572f7640dd7e1b1acc846)] -> class name: password]
+2020-08-30 21:08:457 INFO  LoginStep:45 - clicking on get started button
+2020-08-30 21:08:558 INFO  UtilityClass:106 - wait for element ele value[[ChromeDriver: chrome on WINDOWS (47d9dad7000572f7640dd7e1b1acc846)] -> xpath: //button[@type='submit']]
+2020-08-30 21:08:671 INFO  LoginStep:51 - Validating floating message
+2020-08-30 21:08:599 INFO  UtilityClass:106 - wait for element ele value[[ChromeDriver: chrome on WINDOWS (47d9dad7000572f7640dd7e1b1acc846)] -> class name: ant-notification-notice-with-icon]
+2020-08-30 21:08:679 INFO  UtilityClass:106 - wait for element ele value[[ChromeDriver: chrome on WINDOWS (47d9dad7000572f7640dd7e1b1acc846)] -> class name: ant-notification-notice-description]
+2020-08-30 21:08:799 INFO  UtilityClass:123 - **********************************************
+2020-08-30 21:08:800 INFO  UtilityClass:124 - Toast message is----> You have successfully signed in to my.journeybinder.com!
+2020-08-30 21:08:800 INFO  UtilityClass:125 - **********************************************
+2020-08-30 21:08:933 INFO  UtilityClass:106 - wait for element ele value[[ChromeDriver: chrome on WINDOWS (47d9dad7000572f7640dd7e1b1acc846)] -> xpath: //a[@href='/']]
+2020-08-30 21:08:990 INFO  LoginStep:72 - Dashboard is verified
+2020-08-30 22:08:915 INFO  UtilityClass:106 - wait for element ele value[[ChromeDriver: chrome on WINDOWS (47d9dad7000572f7640dd7e1b1acc846)] -> xpath: //*[contains(text(),'Admin Management')]]
+2020-08-30 22:08:143 INFO  UtilityClass:106 - wait for element ele value[[ChromeDriver: chrome on WINDOWS (47d9dad7000572f7640dd7e1b1acc846)] -> xpath: //*[@class = 'hide-icon']]
+2020-08-30 22:08:511 INFO  UtilityClass:106 - wait for element ele value[[ChromeDriver: chrome on WINDOWS (47d9dad7000572f7640dd7e1b1acc846)] -> xpath: //*[contains(text(),'Push')]]
+2020-08-30 22:08:718 INFO  UtilityClass:106 - wait for element ele value[[ChromeDriver: chrome on WINDOWS (47d9dad7000572f7640dd7e1b1acc846)] -> xpath: //input[@placeholder='Enter subject']]
+2020-08-30 22:08:989 INFO  UtilityClass:106 - wait for element ele value[[ChromeDriver: chrome on WINDOWS (47d9dad7000572f7640dd7e1b1acc846)] -> xpath: //input[@placeholder='Custom body']]
+2020-08-30 22:08:243 INFO  UtilityClass:106 - wait for element ele value[[ChromeDriver: chrome on WINDOWS (47d9dad7000572f7640dd7e1b1acc846)] -> xpath: //button[contains(text(),'SEND')]]
+2020-08-30 22:08:505 INFO  LoginStep:38 - Entering username and password and click on login button
+2020-08-30 22:08:490 INFO  UtilityClass:106 - wait for element ele value[[ChromeDriver: chrome on WINDOWS (e135d0aaf87864d2ca28d981d1d53132)] -> xpath: //input[@type='email']]
+2020-08-30 22:08:874 INFO  UtilityClass:106 - wait for element ele value[[ChromeDriver: chrome on WINDOWS (e135d0aaf87864d2ca28d981d1d53132)] -> class name: password]
+2020-08-30 22:08:32 INFO  LoginStep:45 - clicking on get started button
+2020-08-30 22:08:114 INFO  UtilityClass:106 - wait for element ele value[[ChromeDriver: chrome on WINDOWS (e135d0aaf87864d2ca28d981d1d53132)] -> xpath: //button[@type='submit']]
+2020-08-30 22:08:226 INFO  LoginStep:51 - Validating floating message
+2020-08-30 22:08:724 INFO  UtilityClass:106 - wait for element ele value[[ChromeDriver: chrome on WINDOWS (e135d0aaf87864d2ca28d981d1d53132)] -> class name: ant-notification-notice-with-icon]
+2020-08-30 22:08:806 INFO  UtilityClass:106 - wait for element ele value[[ChromeDriver: chrome on WINDOWS (e135d0aaf87864d2ca28d981d1d53132)] -> class name: ant-notification-notice-description]
+2020-08-30 22:08:857 INFO  UtilityClass:123 - **********************************************
+2020-08-30 22:08:857 INFO  UtilityClass:124 - Toast message is----> You have successfully signed in to my.journeybinder.com!
+2020-08-30 22:08:858 INFO  UtilityClass:125 - **********************************************
+2020-08-30 22:08:950 INFO  UtilityClass:106 - wait for element ele value[[ChromeDriver: chrome on WINDOWS (e135d0aaf87864d2ca28d981d1d53132)] -> xpath: //a[@href='/']]
+2020-08-30 22:08:999 INFO  LoginStep:72 - Dashboard is verified
+2020-08-30 22:08:925 INFO  UtilityClass:106 - wait for element ele value[[ChromeDriver: chrome on WINDOWS (e135d0aaf87864d2ca28d981d1d53132)] -> xpath: //*[contains(text(),'Admin Management')]]
+2020-08-30 22:08:161 INFO  UtilityClass:106 - wait for element ele value[[ChromeDriver: chrome on WINDOWS (e135d0aaf87864d2ca28d981d1d53132)] -> xpath: //*[@class = 'hide-icon']]
+2020-08-30 22:08:554 INFO  UtilityClass:106 - wait for element ele value[[ChromeDriver: chrome on WINDOWS (e135d0aaf87864d2ca28d981d1d53132)] -> xpath: //*[contains(text(),'SMS')]]
+2020-08-30 22:08:729 INFO  UtilityClass:106 - wait for element ele value[[ChromeDriver: chrome on WINDOWS (e135d0aaf87864d2ca28d981d1d53132)] -> xpath: //input[@placeholder='Custom body']]
+2020-08-30 22:08:998 INFO  UtilityClass:106 - wait for element ele value[[ChromeDriver: chrome on WINDOWS (e135d0aaf87864d2ca28d981d1d53132)] -> xpath: //button[contains(text(),'SEND')]]
+2020-08-30 22:08:370 INFO  LoginStep:21 - Sign Up using Google account
+2020-08-30 22:08:256 INFO  LoginStep:29 - Sign Up using Facebook account
+2020-08-30 22:08:415 INFO  LoginStep:43 - Sign Up with email id and password
+2020-08-30 22:08:283 INFO  LoginStep:43 - Sign Up with email id and password
+2020-08-30 22:08:97 INFO  LoginStep:43 - Sign Up with email id and password
+2020-08-30 22:08:215 INFO  LoginStep:43 - Sign Up with email id and password
+2020-08-30 22:08:17 INFO  LoginStep:53 - Sign Up with email id and password
+2020-08-30 22:08:455 INFO  LoginStep:84 - User is on Sign in page
+2020-08-30 22:08:798 INFO  UtilityClass:106 - wait for element ele value[[ChromeDriver: chrome on WINDOWS (d8ca4e05f8fcbc36fb910ca74cfb88a1)] -> xpath: //*[contains(text(),'Sign In with Google')]]
+2020-08-30 22:08:920 INFO  LoginStep:91 - User is on Sign in page
